@@ -5,30 +5,29 @@ Setup PHP environment with Xampp on Windows.
 
 - Go to Apache Friend's [website]('https://www.apachefriends.org/index.html') and download Apache for windows
 
-
-![](.\\img\\Downloads for Apache Friends.png)
+![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/Downloads%20for%20Apache%20Friends.png?raw=true)
 
 ### Step 2 - Install Xampp on windows
 
 - _Select components want to setup_
 
-![](.\\img\\select-component.png)
+![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/select-component.png?raw=true)
 
 - _Choose folder want to install xampp_
 
-![](.\\img\\choose-folder.png)
+![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/choose-folder.png?raw=true)
 
 ### Step 3 - Configuration root folder
 
 * After installed, you can change directory root folder or use default htdocs in Xampp's folder.
 
-![](.\\img\\root-default.png)
+![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/root-default.png?raw=true)
 
 > Change directory root folders
 
 - Go to path:\xampp\apache\conf\httpd.conf and change folder to directory you use.
 
- ![](.\\img\\change-folder.png)
+ ![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/change-folder.png?raw=true)
 
 Change to
 
@@ -39,15 +38,11 @@ DocumentRoot "D:/projects"
 
 Then restart xampp and run file.php in projects folder to test.
 
- ![](.\\img\\localhost_test.php.png)
+ ![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/localhost_test.php.png?raw=true)
 
  ### Step 4 - Configuration Virtual Host
 
  - Go to path:\xampp\apache\conf\extra\httpd-vhosts.conf and insert config.
-
-  ![](.\\img\\change-folder.png)
-
- Insert to file
 
  ```
 <VirtualHost *:80>
@@ -73,4 +68,4 @@ to file hosts on windwows:
 Then restart xampp and run to view result.
 
 
- ![](.\\img\\virtualconfig.com.png)
+ ![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/virtualconfig.com.png?raw=true)
