@@ -3,7 +3,7 @@ Setup PHP environment with Xampp on Windows.
 
 ### Step 1 - Download Apache
 
-- Go to Apache Friend's [website]('https://www.apachefriends.org/index.html') and download Apache for windows
+- Go to Apache Friend's [website](https://www.apachefriends.org) and download Apache for windows
 
 ![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/Downloads%20for%20Apache%20Friends.png?raw=true)
 
