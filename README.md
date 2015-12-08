@@ -40,7 +40,7 @@ Then restart xampp and run file.php in projects folder to test.
 
  ![](https://github.com/kun391/setup-environment-php-docs-with-xampp/blob/master/img/localhost_test.php.png?raw=true)
 
- ### Step 4 - Configuration Virtual Host
+### Step 4 - Configuration Virtual Host
 
  - Go to path:\xampp\apache\conf\extra\httpd-vhosts.conf and insert config.
 
